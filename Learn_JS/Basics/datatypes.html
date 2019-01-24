@@ -1,0 +1,35 @@
+<head>
+<script>
+	var x;
+	var p = "Now x is : "
+	console.log(p + typeof x);
+
+	// datatype : number
+	x = 5;
+	console.log(p + typeof x);
+	
+	// datatype : null (special)
+	x = null;
+	console.log(p + typeof x);
+
+	// datatype : string
+	x = "Hi by variable";
+	console.log(p + typeof x);
+
+	// Using comments like this line
+	// checking for Booleans data type
+	x = false;
+	var y;
+	function chekBool(z){
+		if(z){
+			console.log(z + ' is True Type.')
+		}else{
+			console.log(z + ' is False Type.')
+		}
+	}
+	chekBool(x);
+	chekBool(y);
+	y = 'String';
+	chekBool(y);
+</script>
+</head>
