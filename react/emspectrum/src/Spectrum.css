@@ -1,0 +1,112 @@
+.Spectrum{
+	color: coral;
+}
+
+.TabBar {
+  overflow: hidden;
+  text-align: center;
+  width: auto;
+  height: auto;
+  min-height: 30px;
+  border-radius: 4px;
+  padding-bottom: 10px;
+}
+
+.TabBar button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0px 6px 6px 6px;
+  transition: 0.3s;
+  font-size: 12px;
+  color: #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+/* Change background color of buttons on hover */
+.TabBar button:hover {
+  border-bottom: 1px solid orange;
+  color: orange;
+}
+
+/* Create an active/current tablink class */
+.TabBar button.active {
+  border-bottom: 1px solid coral;
+  color: coral;
+}
+
+.mtabContent {
+  display: none;
+  padding: 4px 9px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/*#mtabDefault{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    max-width: 1000px;
+    align: center;
+    width: 55%;
+ }*/
+
+#headerTitle{
+	font-size: 20px;
+	padding: 15px;
+	color: white;
+	text-align: center;
+}
+
+#headerTitle a{
+    color: white;
+    text-decoration: none;
+    &:hover{
+        color: coral;
+    }
+}
+
+.header{
+	background: #555;
+	padding-top: 2%;
+	margin-bottom: 3%;
+}
+
+.inheader
+{
+  padding-top: 2%;
+  margin-bottom: 3%;
+}
+
+.mtabDefault{
+	display: block;
+}
+
+.outContainer{
+  margin: auto;
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 10px #aaa;
+  background: white;
+  max-width: 1200px;
+  width: 80%;
+  a.post_link{
+      &:hover, &:active {
+        color: $coral;
+      }
+  }
+}
+
+.txt-center{
+  text-align: center;
+}
+
+.createdIcons{
+  padding: 5px;
+  width: 50px;
+}
+
+.headerImg {
+  width:900px;
+}

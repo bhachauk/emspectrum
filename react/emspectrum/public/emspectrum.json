@@ -1,0 +1,182 @@
+{
+  "LongWaves": {
+    "img": "img/lw.png",
+    "notes" : [
+      "Ground wave - travels beyond horizon.",
+      "Sky wave propagation.",
+      "Sub-marine communication."
+    ],
+    "bands": [
+    {
+      "name"  : "elf",
+      "title" : "Extremely Low Frequency",
+      "energy": "12.4 - 124 feV",
+      "wavelength" : "100000 - 10000  km",
+      "range" : "3-30 Hz"
+
+    },
+
+    {
+      "name"  : "slf",
+      "title" : "Super Low Frequency",
+      "energy": "124 - 1240 feV",
+      "wavelength" : "10000 - 1000  km",
+      "range" : "30-300 Hz"  
+    },
+    {
+      "name"  : "ulf",
+      "title" : "Ultra Low Frequency",
+      "energy": "1.24 - 12.4 peV",
+      "wavelength" : "1000 - 100  km",
+      "range" : "300-3000 Hz"  
+    }]
+  },
+
+  "MicroWaves":{
+    "img": "img/mw.png",
+    "notes" : [
+      "Satellite communication",
+      "Wireless networks",
+      "Radio astronomy, Radar and Spectroscopy."
+    ],
+    "bands": [{
+      "name"  : "vlf",
+      "title" : "Very Low Frequency",
+      "energy": "12.4 - 124 peV",
+      "wavelength" : "100 - 10  km",
+      "range" : "3-30 KHz"  
+    },
+
+    {
+      "name"  : "lf",
+      "title" : "Low Frequency",
+      "energy": "124 - 1240 peV",
+      "wavelength" : "10 - 1  km",
+      "range" : "30-300 KHz"  
+    },
+
+    {
+      "name"  : "mf",
+      "title" : "Medium Frequency",
+      "energy": "1.24 - 12.4 neV",
+      "wavelength" : "1000 - 100  m",
+      "range" : "300-3000 KHz"  
+    },
+  	
+  	{
+  		"name"  : "hf",
+      "title" : "High Frequency",
+      "energy": "12.4 - 124 neV",
+      "wavelength" : "100 - 10  m",
+  		"range" : "3-30 MHz"  
+  	},
+  	
+  	{
+  		"name"  : "vhf",
+      "title" : "Very High Frequency",
+      "energy": "124 - 1240 neV",
+      "wavelength" : "10 - 1  m",
+  		"range" : "30-300 MHz" 
+  	},
+
+    {
+      "name"  : "uhf",
+      "title" : "Ultra High Frequency",
+      "energy": "1.24 - 12.4 μeV",
+      "wavelength" : "1000 - 100  mm",
+      "range" : "300-3000 MHz"  
+    },
+
+    {
+      "name"  : "shf",
+      "title" : "Super High Frequency",
+      "energy": "12.4 - 124 μeV",
+      "wavelength" : "100 - 10  mm",
+      "range" : "3-30 GHz"  
+    },
+
+    {
+      "name"  : "ehf",
+      "title" : "Extremely High Frequency",
+      "energy": "124 - 1240 μeV",
+      "wavelength" : "10 - 1  mm",
+      "range" : "30-300 GHz"  
+    }]
+  },
+
+  "Visible": {
+    "img": "img/visible.png",
+    "notes" : [
+      "Astronomical spectroscopy.",
+      "Passes largely as unattenuated through Earth atmosphere."
+    ],
+    "bands": [{
+      "name"  : "fir",
+      "title" : "Far Infrared",
+      "energy": "1.24 - 12.4 meV",
+      "wavelength" : "1000 - 100  μm",
+      "range" : "300-3000 GHz"  
+    },
+
+    {
+      "name"  : "mir",
+      "title" : "Mid Infrared",
+      "energy": "12.4 - 124 meV",
+      "wavelength" : "100 - 10  μm",
+      "range" : "3-30 THz"  
+    },
+    {
+      "name"  : "nir",
+      "title" : "Near Infrared",
+      "energy": "124 - 1240 meV",
+      "wavelength" : "10 - 1  μm",
+      "range" : "30-300 THz"  
+    },
+    {
+      "name"  : "nuv",
+      "title" : "Near Ultra-Violet",
+      "energy": "1.24 - 12.4 eV",
+      "wavelength" : "1000 - 100  nm",
+      "range" : "300-3000 THz"  
+    }]
+  },
+
+  "Ionizing Radiation" : {
+    "img": "img/ir.png",
+    "notes" : [
+      "Ionizing radiation can also be generated artificially by X-ray tubes, CT Scanners and particle accelerometers.",
+      "The worldwide average natural dose to humans is about 2.4 mSv (240 mrem) per year."
+    ],
+    "bands": [{
+      "name"  : "EUV",
+      "title" : "Extreme Ultraviolet",
+      "energy": "12.4 - 124 eV",
+      "wavelength" : "100 - 10  nm",
+      "range" : "3-30 PHz"
+    },
+
+    {
+      "name"  : "SX",
+      "title" : "Soft X-Rays",
+      "energy": "124 - 1240 eV",
+      "wavelength" : "10 - 1  nm",
+      "range" : "30-300 PHz"
+    },
+
+    {
+      "name"  : "HX",
+      "title" : "Hard X-Rays",
+      "energy": "1.24 - 12.4 KeV",
+      "wavelength" : "1000 - 100  pm",
+      "range" : "300-3000 PHz"
+    },
+
+    {
+      "name"  : "γ",
+      "title" : "Gamma Rays",
+      "energy": "12.4 - 1240 KeV",
+      "wavelength" : "100 - 1  pm",
+      "range" : "3-300 EHz"
+    }]
+  }
+}

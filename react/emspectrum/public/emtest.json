@@ -1,0 +1,31 @@
+{
+  "LongWaves": {
+    "notes" : [
+      "This is notes",
+      "2"
+    ],
+    "bands": [{
+      "name"  : "elf",
+      "title" : "Extremely Low Frequency",
+      "energy": "12.4 - 124 feV",
+      "wavelength" : "100000 - 10000  km",
+      "range" : "3-30 Hz"
+
+    },
+
+    {
+      "name"  : "slf",
+      "title" : "Super Low Frequency",
+      "energy": "124 - 1240 feV",
+      "wavelength" : "10000 - 1000  km",
+      "range" : "30-300 Hz"  
+    },
+    {
+      "name"  : "ulf",
+      "title" : "Ultra Low Frequency",
+      "energy": "1.24 - 12.4 peV",
+      "wavelength" : "1000 - 100  km",
+      "range" : "300-3000 Hz"  
+    }]
+  }
+}
