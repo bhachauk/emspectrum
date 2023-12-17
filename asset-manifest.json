@@ -1,22 +1,13 @@
 {
   "files": {
-    "main.css": "/emspectrum/static/css/main.8519d70d.chunk.css",
-    "main.js": "/emspectrum/static/js/main.1a2d9120.chunk.js",
-    "main.js.map": "/emspectrum/static/js/main.1a2d9120.chunk.js.map",
-    "runtime-main.js": "/emspectrum/static/js/runtime-main.fd74e1e0.js",
-    "runtime-main.js.map": "/emspectrum/static/js/runtime-main.fd74e1e0.js.map",
-    "static/js/2.063e8df1.chunk.js": "/emspectrum/static/js/2.063e8df1.chunk.js",
-    "static/js/2.063e8df1.chunk.js.map": "/emspectrum/static/js/2.063e8df1.chunk.js.map",
-    "index.html": "/emspectrum/index.html",
-    "precache-manifest.ec3c623237751f172dabcfa0fe725a6f.js": "/emspectrum/precache-manifest.ec3c623237751f172dabcfa0fe725a6f.js",
-    "service-worker.js": "/emspectrum/service-worker.js",
-    "static/css/main.8519d70d.chunk.css.map": "/emspectrum/static/css/main.8519d70d.chunk.css.map",
-    "static/js/2.063e8df1.chunk.js.LICENSE": "/emspectrum/static/js/2.063e8df1.chunk.js.LICENSE"
+    "main.css": "./static/css/main.9089b759.css",
+    "main.js": "./static/js/main.bc540512.js",
+    "index.html": "./index.html",
+    "main.9089b759.css.map": "./static/css/main.9089b759.css.map",
+    "main.bc540512.js.map": "./static/js/main.bc540512.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd74e1e0.js",
-    "static/js/2.063e8df1.chunk.js",
-    "static/css/main.8519d70d.chunk.css",
-    "static/js/main.1a2d9120.chunk.js"
+    "static/css/main.9089b759.css",
+    "static/js/main.bc540512.js"
   ]
 }
